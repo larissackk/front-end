@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Starbuzz</title>
+    <link rel="stylesheet" type="text/css" href="estilo_cafe.css">
+</head>
+<body>
+
+    <!-- Container centralizador profissional -->
+    <div class="container">
+
+        <h1 class="titulo">Café Starbuzz</h1>
+        
+        <!-- Galeria do topo organizada em grid automático -->
+        <div class="galeria-topo">
+            <img src="11.jpeg" alt="Espaço Café Starbuzz 1">
+            <img src="22.jpeg" alt="Espaço Café Starbuzz 2">
+            <img src="33.jpeg" alt="Espaço Café Starbuzz 3">
+            <img src="44.jpeg" alt="Espaço Café Starbuzz 4">
+        </div>
+
+        <h1>Bebidas do Café Starbuzz</h1>
+
+        <!-- Itens estruturados como menu profissional -->
+        <div class="item-menu">
+            <div class="item-topo">
+                <h2>Mistura da Casa</h2>
+                <span class="preco">R$ 6,00</span>
+            </div>
+            <p>Uma mistura suave e delicada 
+                /* Estrutura de Cardápio para os itens (Nome + Preço alinhados) */
+                .item-menu {de Cafés do México, Bolívia e Guatemala.</p>
+        </div>
+
+        <div class="item-menu">
+            <div class="item-topo">
+                <h2>Café Arábico com leite</h2>
+                <span class="preco">R$ 7,50</span>
+            </div>
+            <p>Expresso, leite fervido e xarope de chocolate.</p>
+        </div>
+
+        <div class="item-menu">
+            <div class="item-topo">
+                <h2>Capuccino</h2>
+                <span class="preco">R$ 8,50</span>
+            </div>
+            <p>Uma mistura de expresso, leite fervido e creme.</p>
+        </div>
+
+        <div class="item-menu">
+            <div class="item-topo">
+                <h2>Chá Chai</h2>
+                <span class="preco">R$ 9,00</span>
+            </div>
+            <p>Uma bebida condimentada com chá preto, especiarias, leite e mel.</p>
+        </div>
+
+        <h1>Bolos do Café Starbuzz</h1>
+
+        <div class="item-menu">
+            <div class="item-topo">
+                <h2>Bolo Red Velvet</h2>
+                <span class="preco">R$ 10,00</span>
+            </div>
+            <p>Um bolo feito com massa red velvet fofinha e saborosa.</p>
+            <img src= "bolo1.jpeg" class="foto-bolo" alt="Bolo Red Velvet">
+        </div>
+
+        <div class="item-menu">
+            <div class="item-topo">
+                <h2>Bolo de Cenoura</h2>
+                <span class="preco">R$ 10,00</span>
+            </div>
+            <p>Bolo de cenoura com cobertura cremosa.</p>
+            <img src="bolo2.jpeg" class="foto-bolo" alt="Bolo de Cenoura">
+        </div>
+
+        <div class="item-menu">
+            <div class="item-topo">
+                <h2>Bolo de Coco</h2>
+                <span class="preco">R$ 10,00</span>
+            </div>
+            <p>Bolo de coco com recheio de chocolate.</p>
+            <img src="bolo3.webp
+            " class="foto-bolo" alt="Bolo de Coco">
+
+
+        </div>
+
+    </div>
+
+</body>
+</html>
