@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fcf8f2; /* Bege ultra claro, mais confortável para leitura */
+    color: #3e2723; /* Marrom escuro quase preto, tom sofisticado */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/* Container principal para centralizar e limitar o conteúdo (Substitui o margin 20% antigo) */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Fundo branco para os itens contrastarem */
+    padding: 40px;
+    border-radius: 16px; /* Cantos elegantemente arredondados */
+    box-shadow: 0 10px 30px rgba(139, 69, 19, 0.05); /* Sombra suave e minimalista */
+    border: 1px solid #efe5d9;
+}
+
+/* Título principal do topo (Nome da cafeteria) */
+h1.titulo {
+    font-family: 'Playfair Display', serif;
+    color: #4a2c11;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -0.5px;
+}
+
+/* Títulos das seções (Bebidas e Bolos) */
+h1:not(.titulo) {
+    font-family: 'Playfair Display', serif;
+    color: #6d4c41;
+    font-size: 1.8rem;
+    margin: 50px 0 25px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f1e6da; /* Linha divisória fina e elegante */
+}
+
+/* Layout em grade (Grid) para a galeria de fotos do topo */
+.galeria-topo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+/* Estilo geral e profissional para TODAS as imagens */
+img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px; /* Cantos levemente suavizados */
+    border: 1px solid #e0d0c0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito sutil e moderno ao passar o mouse nas fotos */
+img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(109, 76, 65, 0.15);
+}
+
+/* Estrutura de Cardápio para os itens (Nome + Preço alinhados) */
+.item-menu {
+    margin-bottom: 24px;
+    background-color: #fdfbf7;
+    padding: 16px;
+    border-radius: 12px;
+    border-left: 4px solid #8d6e63; /* Detalhe lateral em marrom */
+}
+
+.item-topo {
+    display: flex;
+    justify-content: space-between; /* Joga o nome para a esquerda e o preço para a direita */
+    align-items: baseline;
+    gap: 15px;
+}
+
+h2 {
+    font-size: 1.15rem;
+    color: #4a2c11;
+    font-weight: 600;
+}
+
+.preco {
+    font-weight: 600;
+    color: #a1887f;
+    white-space: nowrap;
+}
+
+p {
+    color: #6d5c50;
+    font-size: 0.95rem;
+    margin-top: 4px;
+}
+
+/* Estilo específico para as fotos que ficam embaixo dos bolos */
+.foto-bolo {
+    margin-top: 15px;
+    max-width: 250px;
+    height: 160px;
+}
